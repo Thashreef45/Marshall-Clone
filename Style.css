@@ -1,0 +1,176 @@
+.container-fluid{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    overflow: hidden;
+}
+body{
+    overflow-x: hidden;
+    margin: 0%;
+    padding: 0px;
+    background-color: rgb(88, 84, 84);
+    
+}
+.head1{
+    width:100%;
+    background-color: black;
+    height: 7vh;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.head1-txt{
+    font-size: 0.5em;
+    margin: 1rem;
+}
+
+.navbar-toggler-icon{
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='rgba%28250, 250, 250, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>") ;
+}
+
+.chat{
+    position: fixed;
+    bottom: 2%;
+    width: auto;
+    right: 2%;
+    display:flex ;
+    align-items: center;
+    background-color: black;
+    z-index: 1;
+    height: auto;
+    padding:10px 15px;
+    border-radius: 30px;
+    cursor: pointer;
+
+}
+.chat img{
+    width: 2rem;
+    padding-left: 5px
+}
+.chat p{
+    color: aliceblue;
+    padding: 5px;
+    margin: 0;
+}
+
+nav{
+    background-color: black;
+}
+.navbar{
+    height: 13vh;
+}
+.nav-wrapped{
+    display: flex;
+    width:100%;
+}
+.nav-logo{
+    width: 120px;
+}
+.navbar-collapse ul{
+    margin-left: 20%;
+    background-color: rgb(0, 0, 0);
+}
+.navbar-collapse a{
+    font-weight: 60px;
+    padding: 1rem;
+    color: white;
+    text-decoration: none;
+    justify-content: center;
+}
+.navbar-collapse a:hover{
+    color: #7C7C7C;
+}
+
+.img-grid{
+    width: 100%;
+  
+    object-fit: cover;
+}
+.banner{
+    width: 100%;
+    object-fit: cover;
+}
+.row>*{
+    padding-right:0px !important;
+    padding-left:0px !important;
+    
+}
+
+.row1,.row2{
+    cursor:pointer ;
+    display: flex;
+    justify-content: center ;
+    align-items: flex-end;
+}
+.txt-overlay{
+    position: absolute;
+    margin-top: 2rem;
+    width: 100%;
+    align-items: center;  
+    color: white;
+}
+.txt-overlay button{
+    margin-bottom: 2rem;
+    border: 0ch;
+}
+
+.grid-cell-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text-over{
+    width: 48vw;
+    height: 4rem;
+    position: absolute;
+    color: white;
+}
+.text-over button{
+    border: 0mm;
+}
+.subscribe{
+    align-items: center;
+    justify-content: center;
+}
+.subscribe input{
+    width: 75%;
+    height: 3rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+.foot-row2{
+    background-color: black;
+    color: white;
+}
+.foot-row2 p{
+    cursor: pointer;
+    color: #7C7C7C;
+}
+.foot-row2 p:hover{
+    color: #5b5a5a;
+}
+
+.foot-row3{
+    width: 100%;
+    background-color: black;
+}
+.foot-row3 .div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-row3{
+    border: 0cm;
+}
+.btn-row3:hover{
+    background-color:rgb(200, 197, 197) ;
+}
+
+.img-social{
+    background-color: aliceblue;
+    margin: 1rem;
+    width: 3rem;
+    height: 3rem;
+    cursor: pointer;
+}
